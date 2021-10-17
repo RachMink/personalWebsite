@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <title>Projects Page</title>
+     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+          integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+     <link rel="stylesheet" href="styles.css" media="screen">
+
+
+     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
+     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+
+</head>
+
+<body>
+
+     <div class="container-fluid">
+
+          <nav class="navbar navbar-expand-sm navbar-default fixed-top bg-color">
+
+
+               <div class="container-fluid" id="partOfNav">
+                    <div class="navbar-header">
+                         <button type="button" class="navbar-toggler" data-toggle="collapse"
+                              data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                              aria-expanded="false" aria-label="Toggle navigation">
+
+                              <img src="https://img.icons8.com/ios-filled/30/000000/butterfly.png" alt="butterfly" />
+                         </button>
+
+                         <a class="navbar-brand" href="index.html">Rachel<br>Minkowitz</a>
+                    </div>
+
+
+
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+                         <ul class="navbar-nav ml-auto">
+                              <li class="nav-item"><a class="nav-link" href="aboutMe.html">About Me</a></li>
+                              <li class="nav-item active"><a class="nav-link" aria-current="page"
+                                        href="projects.html">Projects</a></li>
+                              <li class="nav-item"><a class="nav-link" href="more.html">Other</a></li>
+                         </ul>
+
+                    </div>
+
+
+          </nav>
+
+     </div>
+     <div class="container-fluid">
+
+          <div class="block">
+               <div class="row">
+                    <div class="col">
+                         <div class="heading">Projects.</div>
+                    </div>
+               </div>
+               <div class="row">
+                    <div class="col stripes">
+                         <div id="s1"></div>
+                         <div id="s2"></div>
+                         <div id="s3"></div>
+                    </div>
+               </div>
+
+               <!-- <div class="row">
+              <div class="col"></div>
+              <div class="col-8" id="s5"></div>
+              <div class="col"></div>
+          </div> -->
+
+               <div id="projects">
+                    <div class="row" id="avagadro">
+                         <div class="col"></div>
+                         <div class="col-8">
+                              <br><br>
+                              <img alt="chemistry meme" src="../img/chemMeme.jpeg" id="chemMeme" height="50%"
+                                   width="50%" class="img-fluid float-right"
+                                   style="margin-left: 10px ; margin-bottom:10px">
+                              <H3> <a target="_blank" rel="noopener noreferrer"
+                                        href="https://github.com/RachMink/AvagadroCalculator" class="link">
+                                        <strong>Avagadro's Calculator</strong></a></H3>
+                              <h4>Date: 12-01-2020</h4>
+
+                              <article>
+                                   This Java program allows a user to input a molecular formula and calculates the
+                                   weight in grams of one mole of that molecule.
+                                   A mole of a substance, also known as "Avagadro's Number", is defined as containing
+                                   exactly 6.02×10<sup>23</sup> particles of that substance.
+                                   Since an element's atomic weight is equal to the number of grams in one mole of that
+                                   substance we can utilize the specific atomic weight of an element, multiplied by its
+                                   coefficient (the amount of an element in one molecule)
+                                   in order to determine the total mass aka grams per mole of that element.
+                                   <br><br>
+                                   To accomplish this calculation I begin by parsing the
+                                   user's input to determine each element and it's coefficient. Once we understand which
+                                   element we are looking for, and the
+                                   amount of that element we are able to search for the atomic weight in our psuedo
+                                   periodic table of elements and
+                                   calculate the proper weight. <br><br>
+                                   This program uses a top-down programming approach in order to implement parsing, a
+                                   bubble sort ( which although may not be the most
+                                   efficient, was used for pedigogy reasons), and binary search.<br>
+                                   <strong>Language: Java <br>
+                                        Approach: Top-down
+                                   </strong>
+                              </article>
+                         </div>
+                         <div class="col"></div>
+
+                    </div>
+
+                    <br>
+                    <div class="row">
+                         <div class="col"></div>
+                         <div class="col-4" id="s4"></div>
+                         <div class="col"></div>
+                    </div>
+                    <!-- <br> -->
+
+                    <div class="row" id="avagadro">
+                         <div class="col"></div>
+                         <div class="col-8">
+                              <img alt="OOP meme" src="../img/oopMeme.jpeg" id="oopMeme" height="50%" width="50%"
+                                   class="img-fluid float-left" style="margin-right: 10px ; margin-bottom:10px">
+                              <h3> <a target="_blank" rel="noopener noreferrer"
+                                        href="https://github.com/RachMink/Banking-System" class="link"><strong>Banking
+                                             System</strong></a></h3>
+                              <h4>Date: 04-2021</h4>
+                              <article>
+                                   The goal of this project was to create and maintain a Java program mimicking a real
+                                   world banking system using Object Oriented Programming practices, a few data
+                                   structures and exception handling.
+                                   <br> <br> This bank system is based on classes to create different types of bank
+                                   accounts including Savings accounts and Checking accounts, while including class
+                                   methods to close bank accounts, deposit money, withdraw money and perform various
+                                   other transactions whilst checking for errors.
+                                   <br> <br> Although this program cannot be used in real life it allowed me to practice
+                                   polymorphism, abstraction and inheritance in OOP.
+                                   <br><strong>Language: Java <br>
+                                        Approach: Object Oriented Programming
+                                   </strong>
+                              </article>
+                         </div>
+                         <div class="col"></div>
+                    </div>
+
+                    <br>
+                    <div class="row">
+                         <div class="col"></div>
+                         <div class="col-4" id="s4"></div>
+                         <div class="col"></div>
+                    </div>
+                    <!-- <br> -->
+                    <div class="row" id="avagadro">
+                         <div class="col"></div>
+                         <div class="col-8">
+                              <img src="../img/tree.jpeg" alt="family tree meme" id="familyTree" height="50%"
+                                   width="50%" class="img-fluid float-right"
+                                   style="margin-left: 10px ; margin-bottom:10px">
+                              <h3> <a target="_blank" rel="noopener noreferrer"
+                                        href="https://github.com/RachMink/Family-Tree" class="link"><strong>Family
+                                             Tree</strong></a></h3>
+                              <h4> Date: 07-2021</h4>
+                              <article>
+                                   This Java program uses various data structures to arrange a family tree and answer
+                                   questions regarding the lineage.
+                                   Although using a binary tree is pretty obvious, in order to store the data according
+                                   to how it was arranged in the input file I used additional
+                                   arrayLists, and Queues.
+                                   <br><br>
+                                   This program was the first program I had written using a binary tree, and being that
+                                   the subject (family tree) was relevant to the
+                                   project goal (implementing a binary tree) I needed to creatively think how to store
+                                   the data accurately in terms of sibling and parent
+                                   relationships within a binary tree which only hold two children per parent. Using
+                                   queues which use first in first out logic (FIFO) allowed me to arrange
+                                   siblings and their children.
+                                   <br><br>
+                                   After arranging the tree, this program answers questions regarding the family - such
+                                   as "Who is the youngest child of x?" and "Who is the father of y?"
+                                   <br><strong>
+                                        Language: Java <br>
+                                        Approach: OOP with Data Structure
+                                   </strong>
+                              </article>
+                         </div>
+                         <div class="col"></div>
+                    </div>
+
+                    <!-- <br> -->
+                    <div class="row">
+                         <div class="col"></div>
+                         <div class="col-4" id="s4"></div>
+                         <div class="col"></div>
+                    </div>
+                    <!-- <br> -->
+
+                    <div class="row" id="avagadro">
+                         <div class="col"></div>
+                         <div class="col-8">
+                              <img src="../img/dataMeme.jpeg" alt="data analysis Meme" height="50%" width="50%"
+                                   class="img-fluid float-left" style="margin-right: 10px ; margin-bottom:10px">
+                              <h3> <a target="_blank" rel="noopener noreferrer"
+                                        href="https://github.com/RachMink/AWK-data-analysis" class="link"><strong>Data
+                                             Organization</strong></a></h3>
+                              <h4> Date: 08-2021</h4>
+                              <article>
+                                   This project uses a shell script written in AWK to download and analyze data from a
+                                   CSV storing data logged about NY's discharged inmates in 2018.
+                                   <br><br> My analysis includes the amount of prisoners discharged based on age, and
+                                   gender, a calculated average age of the discharged prisoners while all This
+                                   data is printed to a new file.
+                                   <br><strong>Language: AWK <br>
+                                        Approach: Sorting and cleaning
+                                   </strong>
+                              </article>
+                         </div>
+                         <div class="col"></div>
+                    </div>
+
+                    <!-- <br> -->
+                    <div class="row">
+                         <div class="col"></div>
+                         <div class="col-4" id="s4"></div>
+                         <div class="col"></div>
+                    </div>
+                    <!-- <br> -->
+
+                    <div class="row" id="avagadro">
+                         <div class="col"></div>
+                         <div class="col-8">
+                              <img alt="CSS gif" src="../img/giphy-3.gif" height="50%" width="50%"
+                                   class="img-fluid float-right" style="margin-left: 10px ; margin-bottom:10px">
+                              <h3> <a target="_blank" href="https://github.com/RachMink/RachMink.github.io/tree/main"
+                                        class="link"><strong> Portfolio Website (this website) </strong></a></h3>
+                              <article>
+                                   Here you can check out the code for this website. Rather than creating this webiste
+                                   through Wix, Squarespace etc. I decide
+                                   to build this responsive webpage from scratch using HTML, CSS and the Bootstrap
+                                   toolkit. I found the design and creation of this site
+                                   a fun process which encouraged attention to detail and flexibility.
+                                   <br><strong>Language: HTML, CSS, JavaScript <br>
+                                   </strong>
+                              </article>
+                         </div>
+                         <div class="col"></div>
+                    </div>
+
+                    <div class="row">
+                         <div class="col"></div>
+                         <div class="col-4" id="s4"></div>
+                         <div class="col"></div>
+                    </div>
+
+                    <div class="row">
+                         <div class="col-4"></div>
+
+                         <!-- <div class="col-2"></div> -->
+                         <div class="col-1"></div>
+                         <div class="col-2">
+                              <a target="_blank" rel="noopener noreferrer"
+                                   href="https://github.com/RachMink?tab=repositories"> <img alt="github icon"
+                                        src="../img/GitHub-Mark-64px.png"
+                                        class="img-responsive center-block gitIcon"></a>
+                         </div>
+                         <div class="col-1"></div>
+
+                         <div class="col-4"></div>
+                    </div>
+
+               </div>
+
+
+          </div>
+
+     </div>
+     <footer>
+          <div class="block">
+               <div class="row">
+                    <div class="col"></div>
+                    <div class="col-8" id="s4"></div>
+                    <div class="col"></div>
+               </div>
+
+               <div id="contact" class="row justify-content-end">
+                    <div class="col-2"></div>
+                    <div class="col-4 text-left">
+                         <a href="mailto:rhminkowitz@gmail.com" id="email">Email: rhminkowitz@gmail.com</a>
+                    </div>
+                    <div class="col-4 text-right">
+
+                         <a target="_blank" class="badge-base__link LI-simple-link"
+                              href="https://www.linkedin.com/in/rachelhminkowitz?trk=profile-badge"><img
+                                   src="../img/LI-In-Bug.png" alt="linked In icon" class="icon"></a>
+                         &nbsp; &nbsp;
+                         <a target="_blank" rel="noopener noreferrer"
+                              href="https://github.com/RachMink?tab=repositories"> <img alt="github icon"
+                                   src="../img/GitHub-Mark-64px.png" class="icon"></a>
+                    </div>
+                    <div class="col-2"></div>
+
+               </div>
+               <br>
+          </div>
+     </footer>
+</body>
+
+</html>
