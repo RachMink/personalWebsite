@@ -6,7 +6,7 @@ html , body{
     padding: 0px;
     overflow-x: hidden; 
     scroll-padding-top: 15%;
-    font-size: .9vw;
+    /* font-size: .9vw; */
 }
 
 #gif{
@@ -85,7 +85,7 @@ html , body{
     margin-top: 30px; 
     margin-bottom: 50px;
     border-radius: 50%;
-    font-size: 3.4em;
+    font-size: 2.5em;
     font-weight: 700;
     transition: 1s;
 }
@@ -122,14 +122,6 @@ html , body{
     margin-bottom: 3%;
 }
 
-.containerBox .box:hover .content p{
-    margin: 0;
-    padding: 0;
-    font-size: 2em;
-    font-weight: 90;
-    letter-spacing: 1px; 
-}
-
 .containerBox .box .content a{
     display: inline-block;
     padding: 20px 20px;
@@ -163,14 +155,14 @@ html , body{
 
 .heading{
     margin-top: 7%;
-    font-size: 7em;
+    font-size: 5em;
     font-weight:90;
     letter-spacing: 1px;
     padding-left: 4%;
 }
 
 .nav-item{
-    font-size: 1.8em;
+    font-size: 2.1em;
     font-weight: 90;
     letter-spacing: 1px;
     padding: 20px;
@@ -186,7 +178,7 @@ html , body{
 }
 
 .navbar-header{
-    font-size: 2.3em;
+    font-size: 2.5em;
     font-weight: 700;
     letter-spacing: 4px;
     float: left;
@@ -236,7 +228,7 @@ a:hover{
 
 #quote{
     padding: 1%;
-    font-size: 8em;
+    font-size: 5em;
     font-weight: 500;
     text-align: right;
     font-stretch: condensed;
@@ -246,7 +238,7 @@ a:hover{
 
 .header{
     background-color: white;
-    font-size: 2.3em;
+    /* font-size: 2.3em; */
     font-weight: 700;
     letter-spacing: 4px;
     float: left;
@@ -299,7 +291,7 @@ a:hover{
 
 #aboutMe , #avagadro{
     letter-spacing: .05em;
-    font-size: 1.8em;
+    font-size: 1.5em;
     line-height: 2em;
 }
 
@@ -471,7 +463,7 @@ figure{
 }
 
 .imgTitle{
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
 }
 
@@ -479,10 +471,6 @@ figure{
     font-size: 2em;
     text-align: center;
     margin:12%;
-}
-
-#email{
-    font-size: 1.5em;
 }
 
 #email:hover{
@@ -502,7 +490,7 @@ figure{
     border-image: stretch;
 }
 #moreAboutMe{
-    font-size: 3em;
+    font-size: 2em;
     letter-spacing: .1em;
     line-height: 2em;
 }
@@ -512,5 +500,5 @@ figure{
 }
 
 #contact{
-    font-size: 1.8em;
+    font-size: 1em;
 }
