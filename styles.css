@@ -168,8 +168,13 @@ html , body{
     align-items: center;
 }
 
+.nav-link{
+ align-items: center;
+}
+
 .navbar-nav{
     max-width:100%;
+    align-items: center;
 }
 
 .navbar-brand{
