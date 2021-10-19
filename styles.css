@@ -257,18 +257,20 @@ a:hover{
 
 .logo{
     background-color: white;
-    font-size: 2.5vw;
-    font-weight: 600;
+    font-size: 2vw;
+    font-weight: 400;
     letter-spacing: 2px;
     float: left;
     text-align: left;
     padding-left: 2%;
+    padding-top:1%;
 }
 
 #sound{
-    font-size: 1.5vw;
+    font-size: 1vw;
     font-weight: 400;
     text-align: right;
+    padding-top:1%;
     padding-right:2%;
     background-color: white;
 }
