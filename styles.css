@@ -147,6 +147,8 @@ html , body{
     margin:0;
     border:0;
     text-align: center;
+    vertical-align: middle;
+    line-height: normal;
 }  
 
 
@@ -273,6 +275,11 @@ a:hover{
     background-color: white;
 }
 
+/* .sound{
+    margin-top: 2%;
+    margin-left: 2% ;
+} */
+
 .stripes{
     background-color: white;
 }
@@ -307,15 +314,15 @@ a:hover{
     height: 3px;
 }
 
-#aboutMe , #contact , #avagadro{
+#aboutMe , #contact , #avagadro , #moreAboutMe{
     text-align: justify;
     
 }
 
-#aboutMe , #avagadro{
-    letter-spacing: .5px;
+#aboutMe , #avagadro , #moreAboutMe{
+    letter-spacing: 1px;
     word-spacing: 2px;
-    font-size: 1.5vw;
+    font-size: 1.8vw;
     line-height: 1.5em;
 }
 
@@ -512,15 +519,6 @@ figure{
     border-width: 20px;
     border-color: black;
     border-image: stretch;
-}
-#moreAboutMe{
-    font-size: 3vw;
-    letter-spacing: .1em;
-/*     line-height: 2em; */
-}
-.sound{
-    margin-top: 2%;
-    margin-left: 2% ;
 }
 
 #contact{
