@@ -44,7 +44,8 @@ html , body{
     background-size: cover;
     background-image: url("../img/1482.jpg");
     background-position: bottom center;
-    max-height:35vh;
+    min-height: 40vh;
+    max-height: 70vh;
     width:100%;
     padding-left: 0rem;
     padding-right: 0rem;
@@ -75,8 +76,8 @@ html , body{
 
 .containerBox .box .icon1{
     position: relative;
-    max-width:60%;
-    max-height:30%;
+    max-width: 20vw;
+    max-height: 40vh;
     color:black;
     display: flex;
     justify-content: center;
@@ -89,7 +90,7 @@ html , body{
     font-weight: 600;
     transition: 1s;
     background-image: url("../img/butterfly.png");
-    background-size: 100%;
+    background-size: 80%;
     background-height: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -141,7 +142,9 @@ html , body{
 }
 
 .navbar{
-    margin:0;
+    margin-right: 4px;
+    margin-left: 4px;
+/*     margin:0; */
     border:0;
     text-align: center;
 }  
@@ -154,20 +157,20 @@ html , body{
 .heading{
     position:relative;
     margin-top: 15%;
-    font-size: 6vw;
+    font-size: 5.5vw;
     font-weight:90;
     letter-spacing: 1px;
     padding-left: 4%;
 }
 
 .nav-item{
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 90;
     letter-spacing: 1px;
-    padding: 4%;
+    padding: 3%;
     
     background-image: url("../img/butterfly.png");
-    background-size: 80%;
+    background-size: 60%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -177,7 +180,7 @@ html , body{
 }
 
 .navbar-brand{
-    font-size: 4vw;
+    font-size: 3.5vw;
     font-weight: 700;
     letter-spacing: 4px;
     float: left;
@@ -250,7 +253,7 @@ a:hover{
 
 .logo{
     background-color: white;
-    font-size: 3vw;
+    font-size: 2.5vw;
     font-weight: 600;
     letter-spacing: 4px;
     float: left;
@@ -259,9 +262,10 @@ a:hover{
 }
 
 #sound{
-    font-size: 3vw;
+    font-size: 1vw;
     text-align: right;
     padding-right:3%;
+    background-color: white;
 }
 .stripes{
     background-color: white;
@@ -303,10 +307,10 @@ a:hover{
 }
 
 #aboutMe , #avagadro{
-    letter-spacing: .02em;
-    word-spacing: 1.5%;
+    letter-spacing: .5px;
+    word-spacing: 2px;
     font-size: 1.5vw;
-    line-height: 1em;
+    line-height: 1.5em;
 }
 
 .img-fluid{
