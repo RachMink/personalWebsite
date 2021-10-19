@@ -231,9 +231,10 @@ a:hover{
 }
 
 #quote{
-    padding: 1%;
-    font-size: 6vw;
-    font-weight: 500;
+    padding-top: 2%;
+    padding-right: 3%;
+    font-size: 5vw;
+    font-weight: 400;
     text-align: right;
     font-stretch: condensed;
     letter-spacing: .5%;
@@ -254,14 +255,13 @@ a:hover{
 
 .logo{
     background-color: white;
-    font-size: 2.5vw;
-    font-weight: 600;
+    font-size: 3vw;
+    font-weight: 500;
     letter-spacing: 4px;
     float: left;
     text-align: left;
-    padding-left: 2.5%;
-    margin-left: 4px;
-    margin-top: 2px;
+    padding-left: 4%;
+    padding-top: 2%;
 }
 
 #sound{
@@ -269,7 +269,7 @@ a:hover{
     font-weight: 400;
     text-align: right;
     padding-top: 2%;
-    padding-right:2%;
+    padding-right:4%;
     background-color: white;
 }
 
