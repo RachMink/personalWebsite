@@ -44,8 +44,8 @@ html , body{
     background-size: cover;
     background-image: url("../img/1482.jpg");
     background-position: bottom center;
-    min-height: 40vh;
-    max-height: 40vh;
+    min-height: 50vh;
+    max-height: 60vh;
     width:100%;
     padding-left: 0rem;
     padding-right: 0rem;
