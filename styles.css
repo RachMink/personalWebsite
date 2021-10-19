@@ -148,11 +148,11 @@ html , body{
 
 .heading{
     position:relative;
-    margin-top: 15%;
-    font-size: 5.5vw;
+    margin-top: 12%;
+    font-size: 5vw;
     font-weight:100;
     letter-spacing: 1px;
-    padding-left: 4%;
+    padding-left: 3%;
 }
 
 .nav-item{
