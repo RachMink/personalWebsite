@@ -6,7 +6,6 @@ html , body{
     padding: 0px;
     overflow-x: hidden; 
     scroll-padding-top: 15%;
-    /* font-size: .9vw; */
 }
 
 #gif{
@@ -44,7 +43,7 @@ html , body{
     background-size: cover;
     background-image: url("../img/1482.jpg");
     background-position: bottom center;
-    height:35vw;
+    height:35vh;
     background-size: 100%;
     width:100%;
     padding-left: 0rem;
@@ -56,10 +55,11 @@ html , body{
     justify-content: space-between; 
     height:100%;
 }
+
 .containerBox .box{
     position: relative;
     width: 30%;
-    padding: 40px;
+    padding: 5%;
     background: #fff;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
     border-radius: 4px;
@@ -69,32 +69,30 @@ html , body{
 }
 
 .containerBox .box:hover{
-    border: 4mm ridge rgba(0, 0, 0, 0.932);
-    border-radius: 12px;
+    border: 1.5em ridge rgba(0, 0, 0, 0.932);
+    border-radius: 10px;
 }
 
 .containerBox .box .icon1{
     position: relative;
-    width:60%;
-    height:30%;
+    max-width:60%;
+    max-height:30%;
     color:black;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 30px; 
-    margin-bottom: 50px;
+    margin-top: 4%; 
+    margin-bottom: 4%;
     border-radius: 50%;
-    font-size: 2.5em;
-    font-weight: 700;
-    transition: 1s;
-}
-
-.containerBox .box .icon1{
+    font-size: 1.8em;
+    font-weight: 600;
+/*  transition: 1s; */
     background-image: url("../img/butterfly.png");
-    background-size: 80%;
+    background-size: 100%;
+    background-height: auto;
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
 }
 
 .containerBox .box:hover .icon1{
@@ -116,25 +114,25 @@ html , body{
 .containerBox .box .content p{
     margin: 0;
     padding: 0;
-    font-size: 2em;
+    font-size: 1.2em;
     font-weight: 90;
-    letter-spacing: 1px; 
+    letter-spacing: .5%; 
     margin-bottom: 3%;
 }
 
 .containerBox .box .content a{
     display: inline-block;
-    padding: 20px 20px;
+    padding: 2% 2%;
     background: white;
     border-radius: 4px;
     font-size: large;
     font-weight: 500;
-    margin-top: 7%;
+    margin-top: 3%;
 } 
 
 .containerBox .box:hover .content a{
     display: inline-block;
-    padding: 20px 20px;
+    padding: 2% 2%;
     background: white;
     border-radius: 4px;
     font-weight: 500;
@@ -162,13 +160,13 @@ html , body{
 }
 
 .nav-item{
-    font-size: 2.1em;
+    font-size: 1.3em;
     font-weight: 90;
     letter-spacing: 1px;
-    padding: 20px;
+    padding: 4%;
     
     background-image: url("../img/butterfly.png");
-    background-size: 60px;
+    background-size: 10%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -178,7 +176,7 @@ html , body{
 }
 
 .navbar-header{
-    font-size: 2.5em;
+    font-size: 2em;
     font-weight: 700;
     letter-spacing: 4px;
     float: left;
@@ -228,7 +226,7 @@ a:hover{
 
 #quote{
     padding: 1%;
-    font-size: 5em;
+    font-size: 2em;
     font-weight: 500;
     text-align: right;
     font-stretch: condensed;
@@ -244,11 +242,11 @@ a:hover{
     float: left;
     text-align: left;
     padding-left: 2.5%;
-    padding-top: 2%;
+    padding-top: 15%;
 }
 #sound{
     text-align: right;
-    padding-right:2%;
+    padding-right:3%;
 }
 .stripes{
     background-color: white;
@@ -256,7 +254,7 @@ a:hover{
 
 #s1{
     background-color: black;
-    height: 20px;
+    max-height: 20px;
     margin-top: 20px;
     margin-bottom:10px;
     margin-left:-20px;
@@ -265,7 +263,7 @@ a:hover{
 
 #s2{
     background-color: black;
-    height: 10px;
+    max-height: 10px;
     margin-bottom: 10px; 
     margin-left:-20px;
     margin-right:-20px;
@@ -290,9 +288,10 @@ a:hover{
 }
 
 #aboutMe , #avagadro{
-    letter-spacing: .05em;
-    font-size: 1.5em;
-    line-height: 2em;
+    letter-spacing: .02em;
+    word-spacing: 1.5%;
+    font-size: 1.3em;
+    line-height: 1.5em;
 }
 
 .img-fluid{
@@ -463,12 +462,12 @@ figure{
 }
 
 .imgTitle{
-    font-size: 2.5em;
+    font-size: 3vw;
     text-align: center;
 }
 
 .imgDescription{
-    font-size: 2em;
+    font-size: 2vw;
     text-align: center;
     margin:12%;
 }
@@ -479,8 +478,8 @@ figure{
 
 .icon{
     content: center;
-    height: 80%;
-    width: 10%;
+    max-width: 10%;
+    max-height: 80%;
 }
 
 .icon:hover{
@@ -490,9 +489,9 @@ figure{
     border-image: stretch;
 }
 #moreAboutMe{
-    font-size: 2em;
+    font-size: 2vw;
     letter-spacing: .1em;
-    line-height: 2em;
+/*     line-height: 2em; */
 }
 .sound{
     margin-top: 2%;
@@ -500,5 +499,5 @@ figure{
 }
 
 #contact{
-    font-size: 1em;
+    font-size: 2vw;
 }
