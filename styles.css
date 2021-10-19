@@ -271,6 +271,7 @@ a:hover{
 
 .stripes{
     background-color: white;
+    max-height: 40px;
 }
 
 #s1{
