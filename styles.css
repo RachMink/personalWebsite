@@ -121,15 +121,17 @@ html , body{
 .containerBox .box .content a{
     display: inline-block;
     padding: 2% 2%;
-    background: white;
+    background: hotpink;
     border-radius: 4px;
     font-size: 2vw;
     font-weight: 300;
     margin-top: 3%;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 } 
 
 .containerBox .box:hover .content a{
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    background: white;
 }
 
 .navbar{
