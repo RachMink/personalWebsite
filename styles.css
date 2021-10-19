@@ -44,8 +44,8 @@ html , body{
     background-size: cover;
     background-image: url("../img/1482.jpg");
     background-position: bottom center;
-    height: 55vh;
-/*     max-height: 55vh; */
+    min-height: 55vh;
+    max-height: 55vh;
     width:100%;
     padding-left: 0rem;
     padding-right: 0rem;
@@ -257,9 +257,9 @@ a:hover{
 
 .logo{
     background-color: white;
-    font-size: 3vw;
-    font-weight: 500;
-    letter-spacing: 4px;
+    font-size: 2.5vw;
+    font-weight: 600;
+    letter-spacing: 2px;
     float: left;
     text-align: left;
     padding-left: 4%;
