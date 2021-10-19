@@ -76,8 +76,8 @@ html , body{
 
 .containerBox .box .icon1{
     position: relative;
-    max-width: 20vw;
-    max-height: 40vh;
+    width: 20vw;
+    height: 40vh;
     color:black;
     display: flex;
     justify-content: center;
