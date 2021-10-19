@@ -85,7 +85,7 @@ html , body{
     font-size: 4vw;
     font-weight: 500;
     line-height: .5;
-    transition: 1s;
+    transition: 2.5s;
     background-image: url("../img/butterfly.png");
     background-size: 80%;
     background-height: auto;
