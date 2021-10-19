@@ -6,6 +6,7 @@ html , body{
     padding: 0px;
     overflow-x: hidden; 
     scroll-padding-top: 15%;
+    font-size: 0.9vw;
 }
 
 #gif{
@@ -43,8 +44,7 @@ html , body{
     background-size: cover;
     background-image: url("../img/1482.jpg");
     background-position: bottom center;
-    height:35vh;
-    background-size: 100%;
+    max-height:35vh;
     width:100%;
     padding-left: 0rem;
     padding-right: 0rem;
@@ -69,7 +69,7 @@ html , body{
 }
 
 .containerBox .box:hover{
-    border: 1.5em ridge rgba(0, 0, 0, 0.932);
+    border: 1.5mm ridge rgba(0, 0, 0, 0.932);
     border-radius: 10px;
 }
 
@@ -85,9 +85,9 @@ html , body{
     margin-top: 4%; 
     margin-bottom: 4%;
     border-radius: 50%;
-    font-size: 1.8em;
+    font-size: 5vw;
     font-weight: 600;
-/*  transition: 1s; */
+    transition: 1s;
     background-image: url("../img/butterfly.png");
     background-size: 100%;
     background-height: auto;
@@ -114,7 +114,7 @@ html , body{
 .containerBox .box .content p{
     margin: 0;
     padding: 0;
-    font-size: 1.2em;
+    font-size: 3vw;
     font-weight: 90;
     letter-spacing: .5%; 
     margin-bottom: 3%;
@@ -131,12 +131,12 @@ html , body{
 } 
 
 .containerBox .box:hover .content a{
-    display: inline-block;
+/*     display: inline-block;
     padding: 2% 2%;
     background: white;
     border-radius: 4px;
     font-weight: 500;
-    margin-top: 7%;
+    margin-top: 7%; */
     box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
@@ -152,21 +152,21 @@ html , body{
 }
 
 .heading{
-    margin-top: 7%;
-    font-size: 5em;
+    margin-top: 15%;
+    font-size: 6vw;
     font-weight:90;
     letter-spacing: 1px;
     padding-left: 4%;
 }
 
 .nav-item{
-    font-size: 1.3em;
+    font-size: 3vw;
     font-weight: 90;
     letter-spacing: 1px;
     padding: 4%;
     
     background-image: url("../img/butterfly.png");
-    background-size: 10%;
+    background-size: 80%;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -176,7 +176,7 @@ html , body{
 }
 
 .navbar-header{
-    font-size: 2em;
+    font-size: 4vw;
     font-weight: 700;
     letter-spacing: 4px;
     float: left;
@@ -220,13 +220,13 @@ a:hover{
 }
 
 .navabar-collapse{
-    max-height: 0.9vh;
+    min-height: 0.9vh;
     overflow-y: auto;
 }
 
 #quote{
     padding: 1%;
-    font-size: 2em;
+    font-size: 6vw;
     font-weight: 500;
     text-align: right;
     font-stretch: condensed;
@@ -236,7 +236,7 @@ a:hover{
 
 .header{
     background-color: white;
-    /* font-size: 2.3em; */
+    font-size: 4vw;
     font-weight: 700;
     letter-spacing: 4px;
     float: left;
@@ -290,8 +290,8 @@ a:hover{
 #aboutMe , #avagadro{
     letter-spacing: .02em;
     word-spacing: 1.5%;
-    font-size: 1.3em;
-    line-height: 1.5em;
+    font-size: 1.5vw;
+    line-height: 1em;
 }
 
 .img-fluid{
@@ -489,7 +489,7 @@ figure{
     border-image: stretch;
 }
 #moreAboutMe{
-    font-size: 2vw;
+    font-size: 3vw;
     letter-spacing: .1em;
 /*     line-height: 2em; */
 }
