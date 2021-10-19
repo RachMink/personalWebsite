@@ -59,7 +59,7 @@ html , body{
     padding: 5%;
     background: #fff;
     box-shadow: 0 5px 15px rgba(0,0,0,0.1);
-    border-radius: 4px;
+    border-radius: 8px;
     box-sizing: border-box;
     overflow: auto;
     text-align: center;
@@ -67,7 +67,7 @@ html , body{
 
 .containerBox .box:hover{
     border: 1.5mm ridge rgba(0, 0, 0, 0.932);
-    border-radius: 10px;
+    border-radius: 8px;
 }
 
 .containerBox .box .icon1{
@@ -94,7 +94,7 @@ html , body{
 
 .containerBox .box:hover .icon1{
     background-color: hotpink;
-    box-shadow: 0 0 0 950px hotpink;
+    box-shadow: 0 0 0 900px hotpink;
     color:white;
 }
 
