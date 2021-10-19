@@ -169,7 +169,9 @@ html , body{
 }
 
 .nav-link{
- align-items: center;
+    display: block;
+    align-content: center;
+    padding: .5rem 1rem;
 }
 
 .navbar-nav{
