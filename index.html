@@ -11,14 +11,11 @@
 
     <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript">
-        var sound = new Audio;
-        sound.src = "sweetSound.mp3"
-    </script>
-
+    <script src="sound.js"></script>
+    <audio id="myJam" src="../sweetSound.mp3" autoplay></audio>
 </head>
 
-<body onClick="sound.play()">
+<body onClick="playSound()">
 
     <div class="container-fluid">
         <div class="row">
@@ -26,7 +23,7 @@
                 Rachel <br> Minkowitz
             </div>
             <div class="col-2" id="sound">
-                <p>Click anywhere <br> for sound</p>
+                <p>Click anywhere <br> to play/pause sound</p>
             </div>
 
 
