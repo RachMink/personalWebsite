@@ -277,58 +277,32 @@ a:hover{
 
 .stripes{
     background-color: white;
-/*     max-height: 15vh; */
 }
 
 #s1{
     background-color: black;
-    height: 2%;
-    margin-top: 2%;
-    margin-bottom:10px;
+    height: 12px;
+    margin-top: 1%;
+    margin-bottom:7px;
     margin-left:-20px;
     margin-right:-20px;
 }
 
 #s2{
     background-color: black;
-    height: 1%;
-    margin-bottom: 1%; 
+    height: 8px;
+    margin-bottom: 5px; 
     margin-left:-20px;
     margin-right:-20px;
 }
 
 #s3{
     background-color: black;
-    height: .5%;
+    height: 4px;
     margin-left:-20px;
     margin-right:-20px;
 }
 
-
-/* #s1{
-    background-color: black;
-    max-height: 5vh;
-    margin-top: 5vh;
-    margin-bottom:2vh;
-    margin-left:-20px;
-    margin-right:-20px;
-}
-
-#s2{
-    background-color: black;
-    max-height: 2.5vh;
-    margin-bottom: 2.5vh; 
-    margin-left:-20px;
-    margin-right:-20px;
-}
-
-#s3{
-    background-color: black;
-    height: 1vh;
-    margin-left:-20px;
-    margin-right:-20px;
-}
- */
 #s4{
     margin: 2.5vw;
     background-color: black;
