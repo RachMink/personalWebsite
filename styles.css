@@ -164,11 +164,11 @@ html , body{
 
 .heading{
     position:relative;
-    margin-top: 12%;
-    font-size: 5vw;
+    margin-top: 7%;
+    font-size: 3.5vw;
     font-weight:100;
     letter-spacing: 1px;
-    padding-left: 3%;
+    padding-left: 1.5%;
 }
 
 .nav-item{
