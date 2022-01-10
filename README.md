@@ -1,3 +1,4 @@
+[background](/img/)
 ## Rachel's Personal Portfolio Website 
 
 #### Features 
