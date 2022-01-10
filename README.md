@@ -1,6 +1,6 @@
-[background](/img/)
-## Rachel's Personal Portfolio Website 
 
+## Rachel's Personal Portfolio Website 
+![background](/img/1482.jpg)
 #### Features 
 - Home
 - About Me
